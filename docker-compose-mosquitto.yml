@@ -15,7 +15,7 @@ services:
     volumes:
       - ./audio:/usr/share/nginx/html
   folotoy:
-    image: ericismyeldestson/folotoy-server:latest
+    image: lewangdev/folotoy-server:latest
     restart: always
     depends_on:
       mosquitto:
